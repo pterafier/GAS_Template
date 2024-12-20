@@ -1,0 +1,13 @@
+G:\GithubProjects\FP_Template5.5\CommonUI_FPSBase\Source\CommonUI_FPSBase\Public\Actors\InteractActor.h
+G:\GithubProjects\FP_Template5.5\CommonUI_FPSBase\Source\CommonUI_FPSBase\Public\Game\JamSaveGameObject.h
+G:\GithubProjects\FP_Template5.5\CommonUI_FPSBase\Source\CommonUI_FPSBase\Public\Game\JamGameInstanceSubsystem.h
+G:\GithubProjects\FP_Template5.5\CommonUI_FPSBase\Source\CommonUI_FPSBase\Public\Character\JamCharacterBase.h
+G:\GithubProjects\FP_Template5.5\CommonUI_FPSBase\Source\CommonUI_FPSBase\Public\Interfaces\InteractInterface.h
+G:\GithubProjects\FP_Template5.5\CommonUI_FPSBase\Source\CommonUI_FPSBase\Public\Components\AttributesComponent.h
+G:\GithubProjects\FP_Template5.5\CommonUI_FPSBase\Source\CommonUI_FPSBase\Public\Player\JamPlayerCharacter.h
+G:\GithubProjects\FP_Template5.5\CommonUI_FPSBase\Source\CommonUI_FPSBase\Public\Data\SaveGameStructs.h
+G:\GithubProjects\FP_Template5.5\CommonUI_FPSBase\Source\CommonUI_FPSBase\Public\Player\JamPlayerController.h
+G:\GithubProjects\FP_Template5.5\CommonUI_FPSBase\Source\CommonUI_FPSBase\Public\Game\JamGameModeBase.h
+G:\GithubProjects\FP_Template5.5\CommonUI_FPSBase\Source\CommonUI_FPSBase\Public\Interfaces\SaveGameInterface.h
+G:\GithubProjects\FP_Template5.5\CommonUI_FPSBase\Source\CommonUI_FPSBase\Public\Player\JamPlayerState.h
+G:\GithubProjects\FP_Template5.5\CommonUI_FPSBase\Source\CommonUI_FPSBase\Public\UI\CustomActivatableWidget.h

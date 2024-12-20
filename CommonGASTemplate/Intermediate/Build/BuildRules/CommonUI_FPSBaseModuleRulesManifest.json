@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"G:\\GithubProjects\\FP_Template5.5\\CommonGASTemplate\\Source\\CommonUI_FPSBase\\CommonUI_FPSBase.Build.cs",
+		"G:\\GithubProjects\\FP_Template5.5\\CommonGASTemplate\\Source\\CommonUI_FPSBase.Target.cs",
+		"G:\\GithubProjects\\FP_Template5.5\\CommonGASTemplate\\Source\\CommonUI_FPSBaseEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.1"
+}

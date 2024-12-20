@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "g:\\githubprojects\\fp_template5.5\\commonui_fpsbase\\intermediate\\build\\win64\\unrealeditor\\inc\\commonui_fpsbase\\uht\\savegameinterface.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "g:\\githubprojects\\fp_template5.5\\commonui_fpsbase\\intermediate\\build\\win64\\x64\\commonui_fpsbaseeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_4.h.pch",
+        "Includes": [
+            "g:\\githubprojects\\fp_template5.5\\commonui_fpsbase\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\commonui_fpsbase\\definitions.commonui_fpsbase.h",
+            "g:\\githubprojects\\fp_template5.5\\commonui_fpsbase\\source\\commonui_fpsbase\\public\\interfaces\\savegameinterface.h",
+            "g:\\githubprojects\\fp_template5.5\\commonui_fpsbase\\source\\commonui_fpsbase\\public\\data\\savegamestructs.h",
+            "f:\\ue_5.5\\engine\\source\\runtime\\coreuobject\\public\\uobject\\noexporttypes.h",
+            "f:\\ue_5.5\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "f:\\ue_5.5\\engine\\source\\runtime\\coreuobject\\public\\serialization\\testundeclaredscriptstructobjectreferences.h",
+            "f:\\ue_5.5\\engine\\source\\runtime\\core\\public\\math\\unitconversion.h",
+            "f:\\ue_5.5\\engine\\source\\runtime\\core\\public\\math\\unitconversion.inl",
+            "f:\\ue_5.5\\engine\\source\\runtime\\core\\public\\internationalization\\polyglottextdata.h",
+            "g:\\githubprojects\\fp_template5.5\\commonui_fpsbase\\intermediate\\build\\win64\\unrealeditor\\inc\\commonui_fpsbase\\uht\\savegamestructs.generated.h",
+            "g:\\githubprojects\\fp_template5.5\\commonui_fpsbase\\intermediate\\build\\win64\\unrealeditor\\inc\\commonui_fpsbase\\uht\\savegameinterface.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

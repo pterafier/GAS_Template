@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CommonUI_FPSBase",
+			"Path": "..\\Source\\CommonUI_FPSBase.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CommonUI_FPSBaseEditor",
+			"Path": "..\\Source\\CommonUI_FPSBaseEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CommonUI_FPSBase.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CommonUI_FPSBase.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CommonUI_FPSBaseEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\CommonUI_FPSBase">
+      <UniqueIdentifier>{8869A506-C752-3338-A840-0FD645C38C04}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CommonUI_FPSBase\CommonUI_FPSBase.Build.cs">
+      <Filter>Source\CommonUI_FPSBase</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CommonUI_FPSBase\CommonUI_FPSBase.cpp">
+      <Filter>Source\CommonUI_FPSBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CommonUI_FPSBase\CommonUI_FPSBase.h">
+      <Filter>Source\CommonUI_FPSBase</Filter>
+    </ClCompile>
+    <Filter Include="Source\CommonUI_FPSBase\Private">
+      <UniqueIdentifier>{075F42C8-BE89-3966-8AB8-A35E558AC08D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CommonUI_FPSBase\Private\Actors">
+      <UniqueIdentifier>{3E6B3F97-7DAB-368A-98C0-247952058D16}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CommonUI_FPSBase\Private\Actors\InteractActor.cpp">
+      <Filter>Source\CommonUI_FPSBase\Private\Actors</Filter>
+    </ClCompile>
+    <Filter Include="Source\CommonUI_FPSBase\Private\Character">
+      <UniqueIdentifier>{7B398C1A-ACF2-3989-9D51-9B51A97F0C26}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CommonUI_FPSBase\Private\Character\JamCharacterBase.cpp">
+      <Filter>Source\CommonUI_FPSBase\Private\Character</Filter>
+    </ClCompile>
+    <Filter Include="Source\CommonUI_FPSBase\Private\Components">
+      <UniqueIdentifier>{3433DF49-263B-3775-85DB-429BB11CE33A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CommonUI_FPSBase\Private\Components\AttributesComponent.cpp">
+      <Filter>Source\CommonUI_FPSBase\Private\Components</Filter>
+    </ClCompile>
+    <Filter Include="Source\CommonUI_FPSBase\Private\Data">
+      <UniqueIdentifier>{0D4A4657-F50C-3443-B00F-7388E6775B97}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CommonUI_FPSBase\Private\Data\SaveGameStructs.cpp">
+      <Filter>Source\CommonUI_FPSBase\Private\Data</Filter>
+    </ClCompile>
+    <Filter Include="Source\CommonUI_FPSBase\Private\Game">
+      <UniqueIdentifier>{E61200B9-28CF-3ED9-94BC-8F779EB81019}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CommonUI_FPSBase\Private\Game\JamGameInstanceSubsystem.cpp">
+      <Filter>Source\CommonUI_FPSBase\Private\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CommonUI_FPSBase\Private\Game\JamGameModeBase.cpp">
+      <Filter>Source\CommonUI_FPSBase\Private\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CommonUI_FPSBase\Private\Game\JamSaveGameObject.cpp">
+      <Filter>Source\CommonUI_FPSBase\Private\Game</Filter>
+    </ClCompile>
+    <Filter Include="Source\CommonUI_FPSBase\Private\Interfaces">
+      <UniqueIdentifier>{01EB989A-4D4C-3712-9DCF-3D4858739423}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CommonUI_FPSBase\Private\Interfaces\InteractInterface.cpp">
+      <Filter>Source\CommonUI_FPSBase\Private\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CommonUI_FPSBase\Private\Interfaces\SaveGameInterface.cpp">
+      <Filter>Source\CommonUI_FPSBase\Private\Interfaces</Filter>
+    </ClCompile>
+    <Filter Include="Source\CommonUI_FPSBase\Private\Player">
+      <UniqueIdentifier>{F1A25EBD-B502-333A-84B5-678167E66202}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CommonUI_FPSBase\Private\Player\JamPlayerCharacter.cpp">
+      <Filter>Source\CommonUI_FPSBase\Private\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CommonUI_FPSBase\Private\Player\JamPlayerController.cpp">
+      <Filter>Source\CommonUI_FPSBase\Private\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CommonUI_FPSBase\Private\Player\JamPlayerState.cpp">
+      <Filter>Source\CommonUI_FPSBase\Private\Player</Filter>
+    </ClCompile>
+    <Filter Include="Source\CommonUI_FPSBase\Private\UI">
+      <UniqueIdentifier>{DCD8197F-CE73-3FF1-9CD8-1EC5901078A5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CommonUI_FPSBase\Private\UI\CustomActivatableWidget.cpp">
+      <Filter>Source\CommonUI_FPSBase\Private\UI</Filter>
+    </ClCompile>
+    <Filter Include="Source\CommonUI_FPSBase\Public">
+      <UniqueIdentifier>{A18131C5-1B4F-3EB4-B1CE-C37F69E4567F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CommonUI_FPSBase\Public\Actors">
+      <UniqueIdentifier>{A67E3A76-A4D2-3457-85F3-489D2B80C479}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CommonUI_FPSBase\Public\Actors\InteractActor.h">
+      <Filter>Source\CommonUI_FPSBase\Public\Actors</Filter>
+    </ClCompile>
+    <Filter Include="Source\CommonUI_FPSBase\Public\Character">
+      <UniqueIdentifier>{33233FAB-461A-3AEF-9EE1-14C364DDC580}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CommonUI_FPSBase\Public\Character\JamCharacterBase.h">
+      <Filter>Source\CommonUI_FPSBase\Public\Character</Filter>
+    </ClCompile>
+    <Filter Include="Source\CommonUI_FPSBase\Public\Components">
+      <UniqueIdentifier>{708BC7BA-6B63-39F4-888F-03F92A048CCC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CommonUI_FPSBase\Public\Components\AttributesComponent.h">
+      <Filter>Source\CommonUI_FPSBase\Public\Components</Filter>
+    </ClCompile>
+    <Filter Include="Source\CommonUI_FPSBase\Public\Data">
+      <UniqueIdentifier>{62355075-7872-3035-A446-1D5D65D83867}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CommonUI_FPSBase\Public\Data\SaveGameStructs.h">
+      <Filter>Source\CommonUI_FPSBase\Public\Data</Filter>
+    </ClCompile>
+    <Filter Include="Source\CommonUI_FPSBase\Public\Game">
+      <UniqueIdentifier>{21ED0166-7812-31FA-B20F-A628A56F7240}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CommonUI_FPSBase\Public\Game\JamGameInstanceSubsystem.h">
+      <Filter>Source\CommonUI_FPSBase\Public\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CommonUI_FPSBase\Public\Game\JamGameModeBase.h">
+      <Filter>Source\CommonUI_FPSBase\Public\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CommonUI_FPSBase\Public\Game\JamSaveGameObject.h">
+      <Filter>Source\CommonUI_FPSBase\Public\Game</Filter>
+    </ClCompile>
+    <Filter Include="Source\CommonUI_FPSBase\Public\Interfaces">
+      <UniqueIdentifier>{28E80D14-5363-3BA6-92AE-399D491F765A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CommonUI_FPSBase\Public\Interfaces\InteractInterface.h">
+      <Filter>Source\CommonUI_FPSBase\Public\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CommonUI_FPSBase\Public\Interfaces\SaveGameInterface.h">
+      <Filter>Source\CommonUI_FPSBase\Public\Interfaces</Filter>
+    </ClCompile>
+    <Filter Include="Source\CommonUI_FPSBase\Public\Player">
+      <UniqueIdentifier>{A3B5F319-5CC0-3E40-88FF-F48F7029561D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CommonUI_FPSBase\Public\Player\JamPlayerCharacter.h">
+      <Filter>Source\CommonUI_FPSBase\Public\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CommonUI_FPSBase\Public\Player\JamPlayerController.h">
+      <Filter>Source\CommonUI_FPSBase\Public\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CommonUI_FPSBase\Public\Player\JamPlayerState.h">
+      <Filter>Source\CommonUI_FPSBase\Public\Player</Filter>
+    </ClCompile>
+    <Filter Include="Source\CommonUI_FPSBase\Public\UI">
+      <UniqueIdentifier>{58609B80-3B10-3C5F-A841-52C2788CAA5D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CommonUI_FPSBase\Public\UI\CustomActivatableWidget.h">
+      <Filter>Source\CommonUI_FPSBase\Public\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

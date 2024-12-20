@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "g:\\githubprojects\\fp_template5.5\\commonui_fpsbase\\source\\commonui_fpsbase\\private\\player\\jamplayerstate.cpp",
+        "ProvidedModule": "",
+        "PCH": "g:\\githubprojects\\fp_template5.5\\commonui_fpsbase\\intermediate\\build\\win64\\x64\\commonui_fpsbaseeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_4.h.pch",
+        "Includes": [
+            "g:\\githubprojects\\fp_template5.5\\commonui_fpsbase\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\commonui_fpsbase\\definitions.commonui_fpsbase.h",
+            "g:\\githubprojects\\fp_template5.5\\commonui_fpsbase\\source\\commonui_fpsbase\\public\\player\\jamplayerstate.h",
+            "f:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\playerstate.h",
+            "f:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\playerstate.generated.h",
+            "g:\\githubprojects\\fp_template5.5\\commonui_fpsbase\\intermediate\\build\\win64\\unrealeditor\\inc\\commonui_fpsbase\\uht\\jamplayerstate.generated.h",
+            "g:\\githubprojects\\fp_template5.5\\commonui_fpsbase\\source\\commonui_fpsbase\\public\\components\\attributescomponent.h",
+            "g:\\githubprojects\\fp_template5.5\\commonui_fpsbase\\intermediate\\build\\win64\\unrealeditor\\inc\\commonui_fpsbase\\uht\\attributescomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

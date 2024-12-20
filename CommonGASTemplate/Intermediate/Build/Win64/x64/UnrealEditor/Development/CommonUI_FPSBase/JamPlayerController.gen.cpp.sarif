@@ -1,0 +1,95 @@
+{
+    "version": "2.1.0",
+    "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+    "runs": [
+        {
+            "results": [
+                {
+                    "ruleId": "C4263",
+                    "message": {
+                        "text": "'void AJamPlayerController::SetupInputComponent(UInputComponent *)': member function does not override any base class virtual member function"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///G:/GithubProjects/FP_Template5.5/CommonUI_FPSBase/Intermediate/Build/Win64/UnrealEditor/Inc/CommonUI_FPSBase/UHT/JamPlayerController.gen.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///G:/GithubProjects/FP_Template5.5/CommonUI_FPSBase/Source/CommonUI_FPSBase/Public/Player/JamPlayerController.h"
+                                },
+                                "region": {
+                                    "startLine": 61,
+                                    "startColumn": 7
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4264",
+                    "message": {
+                        "text": "'void APlayerController::SetupInputComponent(void)': no override available for virtual member function from base 'APlayerController'; function is hidden"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///G:/GithubProjects/FP_Template5.5/CommonUI_FPSBase/Intermediate/Build/Win64/UnrealEditor/Inc/CommonUI_FPSBase/UHT/JamPlayerController.gen.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///G:/GithubProjects/FP_Template5.5/CommonUI_FPSBase/Source/CommonUI_FPSBase/Public/Player/JamPlayerController.h"
+                                },
+                                "region": {
+                                    "startLine": 69,
+                                    "startColumn": 1
+                                }
+                            }
+                        }
+                    ],
+                    "relatedLocations": [
+                        {
+                            "id": 0,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///F:/UE_5.5/Engine/Source/Runtime/Engine/Classes/GameFramework/PlayerController.h"
+                                },
+                                "region": {
+                                    "startLine": 1932,
+                                    "startColumn": 26
+                                }
+                            },
+                            "message": {
+                                "text": "see declaration of 'APlayerController::SetupInputComponent'"
+                            }
+                        },
+                        {
+                            "id": 1,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///F:/UE_5.5/Engine/Source/Runtime/Experimental/Chaos/Public/Chaos/SimCallbackInput.h"
+                                },
+                                "region": {
+                                    "startLine": 10,
+                                    "startColumn": 7
+                                }
+                            },
+                            "message": {
+                                "text": "see declaration of 'APlayerController'"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "tool": {
+                "driver": {
+                    "name": "MSVC",
+                    "shortDescription": {
+                        "text": "Microsoft Visual C++ Compiler Warnings/Errors"
+                    },
+                    "informationUri": "https://docs.microsoft.com/cpp/error-messages/compiler-errors-1/c-cpp-build-errors"
+                }
+            }
+        }
+    ]
+}
